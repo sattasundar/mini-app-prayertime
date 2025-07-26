@@ -1,0 +1,284 @@
+(self["webpackChunkorg_prayertime"] = self["webpackChunkorg_prayertime"] || []).push([["__federation_expose_App"], {
+"./App.tsx": 
+/*!*****************!*\
+  !*** ./App.tsx ***!
+  \*****************/
+(function (__unused_webpack_module, exports, __webpack_require__) {
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ */ Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+var _interop_require_default = __webpack_require__(/*! @swc/helpers/_/_interop_require_default */ "./node_modules/@swc/helpers/cjs/_interop_require_default.cjs");
+var _jsxruntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+var _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(/*! react */ "webpack/sharing/consume/default/react/react?d5a5"));
+var _reactnative = __webpack_require__(/*! react-native */ "webpack/sharing/consume/default/react-native/react-native?86fb");
+var _NewAppScreen = __webpack_require__(/*! react-native/Libraries/NewAppScreen */ "webpack/sharing/consume/default/react-native/Libraries/NewAppScreen/react-native/Libraries/NewAppScreen");
+// function Section({children, title}: SectionProps): React.JSX.Element {
+//   const isDarkMode = useColorScheme() === 'dark';
+//   return (
+//     <View style={styles.sectionContainer}>
+//       <Text
+//         style={[
+//           styles.sectionTitle,
+//           {
+//             color: isDarkMode ? Colors.white : Colors.black,
+//           },
+//         ]}>
+//         {title}
+//       </Text>
+//       <Text
+//         style={[
+//           styles.sectionDescription,
+//           {
+//             color: isDarkMode ? Colors.light : Colors.dark,
+//           },
+//         ]}>
+//         {children}
+//       </Text>
+//     </View>
+//   );
+// }
+function App() {
+    var isDarkMode = (0, _reactnative.useColorScheme)() === 'dark';
+    var backgroundStyle = {
+        backgroundColor: isDarkMode ? _NewAppScreen.Colors.darker : _NewAppScreen.Colors.lighter
+    };
+    /*
+   * To keep the template simple and small we're adding padding to prevent view
+   * from rendering under the System UI.
+   * For bigger apps the recommendation is to use `react-native-safe-area-context`:
+   * https://github.com/AppAndFlow/react-native-safe-area-context
+   *
+   * You can read more about it here:
+   * https://github.com/react-native-community/discussions-and-proposals/discussions/827
+   */ var prayerData = [
+        {
+            month: 'January',
+            morning: '06:22',
+            evening: '17:23'
+        },
+        {
+            month: 'February',
+            morning: '06:13',
+            evening: '17:41'
+        },
+        {
+            month: 'March',
+            morning: '06:13',
+            evening: '17:41'
+        },
+        {
+            month: 'April',
+            morning: '06:13',
+            evening: '17:41'
+        },
+        {
+            month: 'May',
+            morning: '06:13',
+            evening: '17:41'
+        }
+    ];
+    return /*#__PURE__*/ (0, _jsxruntime.jsxs)(_reactnative.SafeAreaView, {
+        style: styles.container,
+        children: [
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.View, {
+                style: styles.header,
+                children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                    style: styles.logo,
+                    children: "Prayer Time"
+                })
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.View, {
+                style: styles.searchBox,
+                children: /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.TextInput, {
+                    placeholder: "Search by district name",
+                    placeholderTextColor: "#ccc",
+                    style: styles.input
+                })
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                style: styles.locationHeading,
+                children: "KHORDHA, ODISHA"
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsxs)(_reactnative.View, {
+                style: styles.timeCard,
+                children: [
+                    /*#__PURE__*/ (0, _jsxruntime.jsxs)(_reactnative.View, {
+                        style: styles.timeItem,
+                        children: [
+                            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                                style: styles.timeLabel,
+                                children: "Morning"
+                            }),
+                            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                                style: styles.timeValue,
+                                children: "05:11"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0, _jsxruntime.jsxs)(_reactnative.View, {
+                        style: styles.timeItem,
+                        children: [
+                            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                                style: styles.timeLabel,
+                                children: "Evening"
+                            }),
+                            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                                style: styles.timeValue,
+                                children: "18:27"
+                            })
+                        ]
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                style: styles.monthTitle,
+                children: "July Prayer time"
+            }),
+            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.FlatList, {
+                data: prayerData,
+                keyExtractor: (item)=>item.month,
+                renderItem: (ref)=>{
+                    var item = ref.item;
+                    return /*#__PURE__*/ (0, _jsxruntime.jsxs)(_reactnative.View, {
+                        style: styles.monthRow,
+                        children: [
+                            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                                style: styles.monthText,
+                                children: item.month
+                            }),
+                            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                                style: styles.monthTime,
+                                children: item.morning
+                            }),
+                            /*#__PURE__*/ (0, _jsxruntime.jsx)(_reactnative.Text, {
+                                style: styles.monthTime,
+                                children: item.evening
+                            })
+                        ]
+                    });
+                }
+            })
+        ]
+    });
+}
+var styles = _reactnative.StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#0f0f0f',
+        padding: 16
+    },
+    header: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        paddingRight: '5%'
+    },
+    logo: {
+        color: '#fff',
+        fontSize: 22,
+        fontWeight: 'bold'
+    },
+    loginButton: {
+        backgroundColor: '#e3aa6f',
+        borderRadius: 8,
+        padding: 8,
+        paddingHorizontal: 16
+    },
+    loginText: {
+        color: '#000',
+        fontWeight: '600'
+    },
+    tabRow: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        marginVertical: 10
+    },
+    tab: {
+        color: '#fff',
+        fontSize: 16
+    },
+    searchBox: {
+        flexDirection: 'row',
+        backgroundColor: '#1e1e1e',
+        borderRadius: 10,
+        alignItems: 'center',
+        paddingHorizontal: 12,
+        paddingVertical: 8,
+        marginVertical: 12
+    },
+    input: {
+        flex: 1,
+        color: '#fff'
+    },
+    locationHeading: {
+        color: '#e3aa6f',
+        fontSize: 22,
+        fontWeight: 'bold',
+        textAlign: 'center',
+        marginVertical: 10
+    },
+    timeCard: {
+        flexDirection: 'row',
+        backgroundColor: '#1a1a1a',
+        borderRadius: 10,
+        padding: 16,
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        marginBottom: 20
+    },
+    timeItem: {
+        alignItems: 'center'
+    },
+    timeLabel: {
+        color: '#ccc',
+        marginTop: 4
+    },
+    timeValue: {
+        color: '#fff',
+        fontSize: 20,
+        marginTop: 4
+    },
+    monthTitle: {
+        color: '#ccc',
+        fontSize: 16,
+        fontWeight: '500',
+        marginBottom: 10,
+        textAlign: 'left'
+    },
+    monthRow: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        backgroundColor: '#1e1e1e',
+        padding: 12,
+        marginVertical: 4,
+        borderRadius: 6
+    },
+    monthText: {
+        color: '#fff',
+        fontSize: 16,
+        flex: 1
+    },
+    monthTime: {
+        color: '#e3aa6f',
+        fontSize: 16,
+        flex: 1,
+        textAlign: 'right'
+    }
+});
+var _default = App;
+
+
+}),
+
+}]);//# sourceMappingURL=__federation_expose_App.chunk.bundle.map?platform=android
