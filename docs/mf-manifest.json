@@ -1,0 +1,374 @@
+{
+  "id": "prayertime",
+  "name": "prayertime",
+  "metaData": {
+    "name": "prayertime",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "PrayerTimeApp"
+    },
+    "remoteEntry": {
+      "name": "prayertime.container.js.bundle",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "prayertime",
+    "pluginVersion": "0.17.1",
+    "prefetchInterface": false,
+    "publicPath": "noop:///"
+  },
+  "shared": [
+    {
+      "id": "prayertime:react-native/Libraries/Image/AssetSourceResolver",
+      "name": "react-native/Libraries/Image/AssetSourceResolver",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:react-native/Libraries/Image/AssetRegistry",
+      "name": "react-native/Libraries/Image/AssetRegistry",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:react-native",
+      "name": "react-native",
+      "version": "0.79.5",
+      "singleton": true,
+      "requiredVersion": "^0.79.5",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:react",
+      "name": "react",
+      "version": "19.0.0",
+      "singleton": true,
+      "requiredVersion": "^19.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:react-native/Libraries/NewAppScreen",
+      "name": "react-native/Libraries/NewAppScreen",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:@react-native/assets-registry/path-support",
+      "name": "@react-native/assets-registry/path-support",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:@react-native/assets-registry/registry",
+      "name": "@react-native/assets-registry/registry",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:@react-native/virtualized-lists",
+      "name": "@react-native/virtualized-lists",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:react-native/Libraries/ReactPrivate/ReactNativePrivateInterface",
+      "name": "react-native/Libraries/ReactPrivate/ReactNativePrivateInterface",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:@react-native/normalize-colors",
+      "name": "@react-native/normalize-colors",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:react-native/Libraries/ReactPrivate/ReactNativePrivateInitializeCore",
+      "name": "react-native/Libraries/ReactPrivate/ReactNativePrivateInitializeCore",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:react-native/Libraries/NativeComponent/NativeComponentRegistry",
+      "name": "react-native/Libraries/NativeComponent/NativeComponentRegistry",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:react-native/Libraries/ReactNative/RendererProxy",
+      "name": "react-native/Libraries/ReactNative/RendererProxy",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:react-native/Libraries/StyleSheet/processColor",
+      "name": "react-native/Libraries/StyleSheet/processColor",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:react-native/Libraries/NativeComponent/ViewConfigIgnore",
+      "name": "react-native/Libraries/NativeComponent/ViewConfigIgnore",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:react-native/Libraries/StyleSheet/processColorArray",
+      "name": "react-native/Libraries/StyleSheet/processColorArray",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "prayertime:react-native/src/private/featureflags/ReactNativeFeatureFlags",
+      "name": "react-native/src/private/featureflags/ReactNativeFeatureFlags",
+      "version": "*",
+      "requiredVersion": "^*",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle",
+            "prayertime.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "prayertime:App",
+      "name": "App",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_App.chunk.bundle"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./App"
+    }
+  ]
+}
